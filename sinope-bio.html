@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diógenes de Sinope</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        background: url(./imagenes-becas/universidad-fondo.jpg);
+      }
+
+      h3 {
+        color: rgb(0, 0, 0);
+      }
+      p,
+      li {
+        color: rgb(60, 60, 60);
+      }
+
+      .contenedor-general {
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        height: 100vh;
+        gap: 40px;
+        height: 700px;
+      }
+
+      img {
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+        box-shadow: 0 0 7px rgb(30, 29, 29);
+        border-radius: 20px; /*---------------------*/
+      }
+
+      .contenedor-cuadros,
+      .contenedor-cuadros-imagen {
+        display: flex;
+        gap: 20px;
+      }
+      .contenedor-cuadros-imagen {
+        justify-content: center;
+      }
+      .contenedor-cuadros .cuadro-1,
+      .contenedor-cuadros .cuadro-2 {
+        width: 250px;
+        height: 230px;
+        border-radius: 0px;
+        box-shadow: 0 0 7px gray;
+        padding: 20px;
+        background-color: white;
+        border-radius: 20px; /*----------------*/
+      }
+      .contenedor-texto {
+        width: 520px;
+        height: 250px;
+        margin-top: 30px;
+        box-shadow: 0 0 7px gray;
+        border-radius: 0px;
+        padding: 40px;
+        background-color: white;
+        border-radius: 20px; /*---------*/
+      }
+      .boton-regresar {
+        padding: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        border-style: none;
+        background-color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 15px;
+        box-shadow: 0 0 6px rgb(157, 157, 157);
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fondo-blanco">
+      <br /><br />
+      <p align="center">Un resumen de la vida de</p>
+      <h1 align="center">Diógenes de Sinope</h1>
+      <div class="contenedor-general">
+        <div class="contenedor-cuadros-texto">
+          <div class="contenedor-cuadros-imagen">
+            <img src="./img-filosofos/sinope.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="contenedor-cuadros-texto">
+          <div class="contenedor-cuadros">
+            <div class="cuadro-1">
+              <h3>Nacimiento</h3>
+              <p>
+                nacido alrededor del año 412 a.C. en Sinope, una colonia griega
+                en la costa del Mar Negro, y fallecido en el 323 a.C. en
+                Corinto, Grecia.
+              </p>
+            </div>
+            <div class="cuadro-2">
+              <h3>Conocido por</h3>
+              <p>
+                su estilo de vida extremadamente austero y su filosofía cínica,
+                la cual cuestionaba las convenciones sociales y buscaba la
+                virtud a través de la autarquía y la libertad personal.
+              </p>
+            </div>
+          </div>
+
+          <div class="contenedor-texto">
+            <h3>Vida adulta</h3>
+            <p>
+              Diógenes vivió de acuerdo con sus principios, rechazando las
+              posesiones materiales y adoptando una vida de mendicidad y
+              desapego. Es famoso por su búsqueda constante de honestidad y
+              autenticidad, así como por sus encuentros satíricos con figuras
+              prominentes de su época, como Alejandro Magno. Su filosofía
+              influenció a muchos pensadores posteriores y su figura sigue
+              siendo objeto de admiración y estudio en la actualidad.​
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <button class="boton-regresar">
+        <a href="./filosofos.html">Regresar</a>
+      </button>
+    </div>
+  </body>
+</html>

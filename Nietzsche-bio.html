@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friedrich Nietzsche</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        background: url(./imagenes-becas/universidad-fondo.jpg);
+      }
+
+      h3 {
+        color: rgb(0, 0, 0);
+      }
+      p,
+      li {
+        color: rgb(60, 60, 60);
+      }
+
+      .contenedor-general {
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        height: 100vh;
+        gap: 40px;
+        height: 700px;
+      }
+
+      img {
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+        box-shadow: 0 0 7px rgb(30, 29, 29);
+        border-radius: 20px; /*---------------------*/
+      }
+
+      .contenedor-cuadros,
+      .contenedor-cuadros-imagen {
+        display: flex;
+        gap: 20px;
+      }
+      .contenedor-cuadros-imagen {
+        justify-content: center;
+      }
+      .contenedor-cuadros .cuadro-1,
+      .contenedor-cuadros .cuadro-2 {
+        width: 250px;
+        height: 230px;
+        border-radius: 0px;
+        box-shadow: 0 0 7px gray;
+        padding: 20px;
+        background-color: white;
+        border-radius: 20px; /*----------------*/
+      }
+      .contenedor-texto {
+        width: 520px;
+        height: 250px;
+        margin-top: 30px;
+        box-shadow: 0 0 7px gray;
+        border-radius: 0px;
+        padding: 40px;
+        background-color: white;
+        border-radius: 20px; /*---------*/
+      }
+      .boton-regresar {
+        padding: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        border-style: none;
+        background-color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 15px;
+        box-shadow: 0 0 6px rgb(157, 157, 157);
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fondo-blanco">
+      <br /><br />
+      <p align="center">Un resumen de la vida de</p>
+      <h1 align="center">Friedrich Nietzsche</h1>
+      <div class="contenedor-general">
+        <div class="contenedor-cuadros-texto">
+          <div class="contenedor-cuadros-imagen">
+            <img src="./img-filosofos/Nietzsche.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="contenedor-cuadros-texto">
+          <div class="contenedor-cuadros">
+            <div class="cuadro-1">
+              <h3>Nacimiento</h3>
+              <p>
+                Friedrich Nietzsche nació el 15 de octubre de 1844 en Röcken, un
+                pequeño pueblo de Sajonia-Anhalt, cerca de Leipzig. Su nombre
+                proviene del rey Federico Guillermo IV de Prusia.
+              </p>
+            </div>
+            <div class="cuadro-2">
+              <h3>Familia</h3>
+              <p>
+                Sus padres fueron Carl Ludwig Nietzsche (1813-1849), pastor
+                luterano y preceptor privado en el ducado alemán de
+                Sajonia-Altenburgo en Turingia, y Franziska Oehler (1826-1897).
+              </p>
+            </div>
+          </div>
+
+          <div class="contenedor-texto">
+            <h3>Vida adulta</h3>
+            <p>
+              Tras la muerte de su padre en 1849 y del hermano menor en 1850, la
+              familia se trasladó a Naumburgo, donde vivió con su abuela materna
+              y las hermanas solteras del padre bajo la protección de Bemhard
+              Dächsel, un magistrado local. Durante este tiempo el joven
+              Nietzsche asistió a un colegio de niños para luego trasladarse al
+              instituto del candidato Weber, una academia privada, donde se hizo
+              amigo de Gustav Krug y Wilhelm Pinder, dos estudiantes
+              pertenecientes a familias acomodadas.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <button class="boton-regresar">
+        <a href="./filosofos.html">Regresar</a>
+      </button>
+    </div>
+  </body>
+</html>

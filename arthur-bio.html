@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arthur Schopenhauer</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        background: url(./imagenes-becas/universidad-fondo.jpg);
+      }
+
+      h3 {
+        color: rgb(0, 0, 0);
+      }
+      p,
+      li {
+        color: rgb(60, 60, 60);
+      }
+
+      .contenedor-general {
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        height: 100vh;
+        gap: 40px;
+        height: 700px;
+      }
+
+      img {
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+        box-shadow: 0 0 7px rgb(30, 29, 29);
+        border-radius: 20px; /*---------------------*/
+      }
+
+      .contenedor-cuadros,
+      .contenedor-cuadros-imagen {
+        display: flex;
+        gap: 20px;
+      }
+      .contenedor-cuadros-imagen {
+        justify-content: center;
+      }
+      .contenedor-cuadros .cuadro-1,
+      .contenedor-cuadros .cuadro-2 {
+        width: 250px;
+        height: 230px;
+        border-radius: 0px;
+        box-shadow: 0 0 7px gray;
+        padding: 20px;
+        background-color: white;
+        border-radius: 20px; /*----------------*/
+      }
+      .contenedor-texto {
+        width: 540px;
+        height: 250px;
+        margin-top: 30px;
+        box-shadow: 0 0 7px gray;
+        border-radius: 0px;
+        padding: 40px;
+        background-color: white;
+        border-radius: 20px; /*---------*/
+      }
+      .boton-regresar {
+        padding: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        border-style: none;
+        background-color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 15px;
+        box-shadow: 0 0 6px rgb(157, 157, 157);
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fondo-blanco">
+      <br /><br />
+      <p align="center">Un resumen de la vida de</p>
+      <h1 align="center">Arthur Schopenhauer</h1>
+      <div class="contenedor-general">
+        <div class="contenedor-cuadros-texto">
+          <div class="contenedor-cuadros-imagen">
+            <img src="./img-filosofos/Arthur.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="contenedor-cuadros-texto">
+          <div class="contenedor-cuadros">
+            <div class="cuadro-1">
+              <h3>Nacimiento</h3>
+              <p>
+                Arthur Schopenhauer fue un filósofo alemán nacido el 22 de
+                febrero de 1788 en Danzig (hoy Gdansk, Polonia) y fallecido el
+                21 de septiembre de 1860 en Fráncfort del Meno, Alemania.
+              </p>
+            </div>
+            <div class="cuadro-2">
+              <h3>Es conocido por</h3>
+              <p>
+                Su pesimismo filosófico y su teoría de la voluntad como la
+                fuerza impulsora detrás de la realidad. Estudió en las
+                universidades de Gotinga y Berlín, donde se sumergió en la
+                filosofía kantiana y desarrolló su propio sistema filosófico.
+              </p>
+            </div>
+          </div>
+
+          <div class="contenedor-texto">
+            <h3>Filosofía influyente</h3>
+            <p>
+              Su obra más influyente es "El mundo como voluntad y
+              representación" (1818), donde expone su teoría central de que la
+              voluntad es la esencia subyacente de todas las cosas y que el
+              sufrimiento humano surge del deseo insaciable. Schopenhauer
+              influyó en importantes pensadores posteriores, como Nietzsche,
+              Freud y Wittgenstein, y es considerado uno de los filósofos más
+              importantes del siglo XIX.​
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <button class="boton-regresar">
+        <a href="./filosofos.html">Regresar</a>
+      </button>
+    </div>
+  </body>
+</html>

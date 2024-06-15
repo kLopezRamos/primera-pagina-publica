@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jean-Paul Sartre</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        background: url(./imagenes-becas/universidad-fondo.jpg);
+      }
+
+      h3 {
+        color: rgb(0, 0, 0);
+      }
+      p,
+      li {
+        color: rgb(60, 60, 60);
+      }
+
+      .contenedor-general {
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        height: 100vh;
+        gap: 40px;
+        height: 700px;
+      }
+
+      img {
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+        box-shadow: 0 0 7px rgb(30, 29, 29);
+        border-radius: 20px; /*---------------------*/
+      }
+
+      .contenedor-cuadros,
+      .contenedor-cuadros-imagen {
+        display: flex;
+        gap: 20px;
+      }
+      .contenedor-cuadros-imagen {
+        justify-content: center;
+      }
+      .contenedor-cuadros .cuadro-1,
+      .contenedor-cuadros .cuadro-2 {
+        width: 250px;
+        height: 230px;
+        border-radius: 0px;
+        box-shadow: 0 0 7px gray;
+        padding: 20px;
+        background-color: white;
+        border-radius: 20px; /*----------------*/
+      }
+      .contenedor-texto {
+        width: 520px;
+        height: 250px;
+        margin-top: 30px;
+        box-shadow: 0 0 7px gray;
+        border-radius: 0px;
+        padding: 40px;
+        background-color: white;
+        border-radius: 20px; /*---------*/
+      }
+      .boton-regresar {
+        padding: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        border-style: none;
+        background-color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 15px;
+        box-shadow: 0 0 6px rgb(157, 157, 157);
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fondo-blanco">
+      <br /><br />
+      <p align="center">Un resumen de la vida de</p>
+      <h1 align="center">Jean-Paul Sartre</h1>
+      <div class="contenedor-general">
+        <div class="contenedor-cuadros-texto">
+          <div class="contenedor-cuadros-imagen">
+            <img src="./img-filosofos/sartre-bio.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="contenedor-cuadros-texto">
+          <div class="contenedor-cuadros">
+            <div class="cuadro-1">
+              <h3>Nacimiento</h3>
+              <p>
+                influyente filósofo, escritor y activista francés nacido el 21
+                de junio de 1905 en París y fallecido el 15 de abril de 1980 en
+                la misma ciudad.
+              </p>
+            </div>
+            <div class="cuadro-2">
+              <h3>Conocido por</h3>
+              <p>
+                Es conocido por su obra filosófica, especialmente "El ser y la
+                nada" (1943), donde desarrolla su concepto de la "existencia
+                precede a la esencia" y explora la libertad humana y la
+                responsabilidad individual.
+              </p>
+            </div>
+          </div>
+
+          <div class="contenedor-texto">
+            <h3>Vida adulta</h3>
+            <p>
+              Es considerado uno de los principales exponentes del
+              existencialismo y el marxismo en el siglo XX. Sartre estudió
+              filosofía en la École Normale Supérieure y se involucró en
+              movimientos políticos de izquierda durante su juventud. También es
+              célebre por su teatro, incluyendo obras como "A puerta cerrada" y
+              "Las manos sucias". Sartre rechazó el Premio Nobel de Literatura
+              en 1964, apoyó al comunismo y contra la guerra de Argelia. Su
+              legado como filósofo y escritor sigue siendo objeto de estudio y
+              debate en la actualidad.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <button class="boton-regresar">
+        <a href="./filosofos.html">Regresar</a>
+      </button>
+    </div>
+  </body>
+</html>

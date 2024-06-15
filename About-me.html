@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina central</title>
+    <style>
+      .botones-extras {
+        display: flex;
+        justify-content: center;
+      }
+      .div-para-boton-regresar {
+        display: block;
+      }
+      .porfavor-jala {
+        color: white;
+      }
+      .contenedor-general {
+        display: grid;
+        grid-template-columns: 600px 600px;
+        justify-content: center;
+        align-items: center;
+        column-gap: 40px;
+        row-gap: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .botones {
+        background: none;
+        border: rgb(53, 53, 53) 0.1rem solid;
+        font-weight: 600;
+        padding: 1rem;
+        border-radius: 2rem;
+        background: rgb(53, 53, 53);
+        color: white;
+      }
+      .botones:hover {
+        border: rgb(255, 255, 255) 0.1rem solid;
+        background: rgb(53, 53, 53);
+        color: white;
+        cursor: pointer;
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./estilos.css" />
+    <nav id="desktop-nav">
+      <div class="logo">"El deseo de saber"</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="./que-es-filosofia.html">¿Qué es?</a></li>
+          <li>
+            <a
+              href="https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0188-66492020000200429"
+              >¿Para qué?</a
+            >
+          </li>
+          <li><a href="./filosofos.html">Filósofos</a></li>
+          <li>
+            <a href="https://librosoa.unam.mx/handle/123456789/117">Consulta</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./img-filosofos/img-principal.jpg" class="foto-perfil" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">EL ACONTECER DE LA</p>
+        <h1 class="title">FILOSOFÍA</h1>
+        <p class="section__text__p2">"MADRE DE TODAS LAS CIENCIAS"</p>
+        <div class="btn-container"></div>
+      </div>
+    </section>
+  </body>
+</html>

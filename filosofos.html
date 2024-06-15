@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FILOSOFOS</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./estilosBECAS.css" />
+    <script>
+// script.js
+document.addEventListener('DOMContentLoaded', (event) => {
+    const fotos = document.querySelectorAll('.project-img');
+    
+    fotos.forEach((foto) => {
+        foto.addEventListener('mouseover', () => {
+            foto.style.transform = 'scale(1.2) rotate(15deg)';
+            foto.style.filter = 'brightness(1.2)';
+        });
+
+        foto.addEventListener('mouseout', () => {
+            foto.style.transform = 'scale(1) rotate(0deg)';
+            foto.style.filter = 'brightness(1)';
+        });
+    });
+});
+
+
+    </script>
+    <div class="block">
+    <section id="projects">
+      <p class="section__text__p1">Biografía y filosofía de  </p>
+      <h1 class="title">Algunos Filósofos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./img-filosofos/Nietzsche.jpg" class="project-img" />
+            </div>
+            <div class="article-container">
+              <h3 align="center">Friedrich Nietzsche</h3>
+            </div>
+            <a href="./Nietzsche-bio.html"><button class="btn btn-color-1 project-btn">Biografía</button></a>
+            <div class="btn-container">
+              <a href="./nietzsche-filo.html"><button class="btn btn-color-1 project-btn">Filosofía</button></a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./img-filosofos/camus.jpg" class="project-img" />
+            </div>
+            <div class="article-container">
+              <h3 align="center"> Albert Camus</h3>
+            </div>
+            <a href="./camus-bio.html"><button class="btn btn-color-1 project-btn">Biografía</button></a>
+            <div class="btn-container">
+              <a href="./camus-filo.html"><button class="btn btn-color-1 project-btn">Filosofía</button></a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./img-filosofos/Arthur.jpg" class="project-img" />
+            </div>
+            <div class="article-container">
+              <h3 align="center">Arthur Schopenhauer</h3>
+            </div>
+            <a href="./arthur-bio.html"><button class="btn btn-color-1 project-btn">Biografía</button></a>
+            <div class="btn-container">
+              <a href="arthur-filo.html"><button class="btn btn-color-1 project-btn">Filosofía</button></a>
+            </div>
+          </div>
+        </div> 
+       
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./img-filosofos/maquiavelo.jpg" class="project-img" />
+            </div>
+            <div class="article-container">
+              <h3 align="center">Nicolás Maquiavelo</h3>
+            </div>
+            <a href="./maquiavelo-bio.html"><button class="btn btn-color-1 project-btn">Biografía</button></a>
+            <div class="btn-container">
+              <a href="Maquiavelo-filo.html"><button class="btn btn-color-1 project-btn">Filosofía</button></a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./img-filosofos/sinope.png" class="project-img" />
+            </div>
+            <div class="article-container">
+              <h3 align="center"> Diógenes de Sinope</h3>
+            </div>
+            <a href="./sinope-bio.html"><button class="btn btn-color-1 project-btn">Biografía</button></a>
+            <div class="btn-container">
+              <a href="sinope-filo.html"><button class="btn btn-color-1 project-btn">Filosofía</button></a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./img-filosofos/satre.jpg" class="project-img" />
+            </div>
+            <div class="article-container">
+              <h3 align="center">Jean-Paul Sartre</h3>
+            </div>
+            <a href="./Sartre-bio.html"><button class="btn btn-color-1 project-btn">Biografía</button></a>
+            <div class="btn-container">
+              <a href="Sartre-filo.html"><button class="btn btn-color-1 project-btn">Filosofía</button></a>
+            </div>
+          </div>
+        </div> 
+    </section>
+  </div>
+    <br><br><br>   <br><br><br>
+    <br><br><br>   <br><br><br>
+    <br><br><br>   <br><br><br>
+    <br><br><br>   <br><br><br>
+    <button class="boton-regresar">
+        <a href="./About-me.html">Regresar</a>
+      </button>
+   
+  </body>
+</html>
